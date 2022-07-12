@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 468px;
+    height: 2938px;
+    float: right;
+    margin-right: 20px;
+    background: #D9D9D9;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}
+
+.card {
+    width: 132px;
+    height: 102px;
+    background: #a7a7a7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav {
+    height: 30px;
+    width: 100%;
+    background: #d9d9d9;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 650px;
+}
+
+.logo-container {
+    width: 128px;
+    height: 135px;
+    background: #D9D9D9;
+    position: fixed;
+
+}
+
+.logo-image {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+
+main {
+    width: 658px;
+    height: 2938px;
+    margin: 15px auto 0px;
+    background-image: url(./images/logo.svg);
+}
+
+aside {
+    position: relative;
+    left: 17px;
+}
