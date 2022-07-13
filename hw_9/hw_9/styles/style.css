@@ -1,0 +1,51 @@
+.f-1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+.f-2 {
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+}
+
+.f-3 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 30px;
+}
+
+.f-4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.f-5 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.f-6 {
+    font-size: 30px;
+    font-family: "Jx Tabe DEMO";
+    src: local("Jx Tabe DEMO"),
+        url("./jx/JxTabeDemoRegular.ttf") format("truetype"),
+        url("./jx/JxTabeDemoThin.ttf") format("truetype");
+}
+
+.div-1 {
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+}
+
+.div-2 {
+    background-color: #DB7093;
+    height: 100px;
+    width: 100%;
+}
+
+.div-3 {
+    background-color: rgb(255, 0, 255);
+    height: 100px;
+    width: 100%;
+}

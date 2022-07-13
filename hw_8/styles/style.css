@@ -1,0 +1,81 @@
+body {}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 272px;
+    width: 613px;
+    background-image: url(../photos/fon.jpg);
+
+}
+
+.avatar {
+    display: flex;
+    width: 162px;
+    height: 198px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin-top: 48px;
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 21px;
+    top: 15px;
+    background-image: url(../photos/Elena.jpg.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.comment {
+    position: absolute;
+    width: 121px;
+    height: 98px;
+    left: 21px;
+    top: 66px;
+
+    background: #D9D9D9;
+}
+
+.some {
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    left: 69px;
+    top: 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.star-one {
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    left: 67px;
+    top: 34px;
+    background-image: url(../photos/star.svg);
+}
+
+.star-two {
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    left: 81.44px;
+    top: 34px;
+    background-image: url(../photos/star.svg);
+}
+
+.star-three {
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    left: 95px;
+    top: 34px;
+    background-image: url(../photos/star.svg);
+}
