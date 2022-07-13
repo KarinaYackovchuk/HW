@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Jx Tabe DEMO";
+    src: local("Jx Tabe DEMO"),
+        url("../jx/JxTabeDemoRegular.ttf") format("truetype"),
+        url("../jx/JxTabeDemoThin.ttf") format("truetype");
+}
+
 .f-1 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -27,9 +34,6 @@
 .f-6 {
     font-size: 30px;
     font-family: "Jx Tabe DEMO";
-    src: local("Jx Tabe DEMO"),
-        url("./jx/JxTabeDemoRegular.ttf") format("truetype"),
-        url("./jx/JxTabeDemoThin.ttf") format("truetype");
 }
 
 .div-1 {
