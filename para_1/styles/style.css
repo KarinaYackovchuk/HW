@@ -1,0 +1,116 @@
+li {
+    display: inline-block;
+    background-color: rgb(209, 206, 206);
+    margin-right: 3px;
+    border-radius: 4px;
+    display: inline;
+    position: relative;
+    left: 35%;
+    border: solid rgb(104, 104, 104);
+
+}
+
+ul {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    font-family: arial;
+
+}
+
+.photo_1 {
+    width: 500px;
+    height: 200px;
+
+}
+
+.div_1 {
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.div_2 {
+    width: 500px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(215, 213, 255);
+
+}
+
+.photos {
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    background-image: url(../styles/photos/1626768372_33-kartinkin-com-p-temno-serii-fon-gradient-krasivo-34.jpg);
+    background-size: cover;
+    border: 1px solid #333;
+
+}
+
+.ph-1 {
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url(../styles/photos/apple-iphone-12-pro-max-6gb-256gb-6.7.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ph-2 {
+    margin-top: 25px;
+    margin-left: 173px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url(../styles/photos/orig.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ph-3 {
+    margin-top: 25px;
+    margin-left: 337px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url(../styles/photos/iPhone-12-13.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.button {
+    width: 500px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    background-image: url(../styles/photos/1626768372_33-kartinkin-com-p-temno-serii-fon-gradient-krasivo-34.jpg);
+    background-size: cover;
+    border: 1px solid #333;
+}
+
+input {
+    position: absolute;
+    top: 530px;
+    left: 43%;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(173, 168, 243);
+    width: 500px;
+    border: 1px solid;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one::first-letter {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+            color: rgb(53, 132, 132);
+        }
+
+        .two::first-line {
+            background-color: rgb(162, 162, 162);
+        }
+
+        .three::before {
+            content: "❤";
+            color: red;
+        }
+
+        p.four::after {
+            content: "❗❗❗Новая информация❗❗❗";
+            background-color: rgb(209, 209, 209);
+        }
+
+        p.five::selection {
+            background-color: rgb(209, 181, 147);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>First letter</h2>
+    <article class="ones">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore, maiores optio ut
+        alias totam modi
+        praesentium est adipisci? Placeat, inventore minus corrupti commodi unde itaque at non magni officia.</article>
+    <div class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus laborum temporibus nam, maxime
+        reiciendis,
+        voluptatem eligendi ipsa unde laboriosam, optio atque iusto porro nobis quae labore alias esse assumenda autem!
+    </div>
+    <p class="ones">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio vero, possimus eius voluptate quis
+        assumenda,
+        fugit quas consectetur at debitis corrupti repellat soluta quae alias ipsum? Aperiam minima cumque ullam!</p>
+
+    <h2>First line</h2>
+    <div class="twos">
+        <h4 class="twos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, debitis ratione dolorem
+            ullam ad sequi amet alias totam tempore placeat quidem labore aspernatur laudantium deserunt dolor dolore,
+            praesentium unde. Praesentium.</h3>
+            <p class="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Omnis ratione voluptatibus, id
+                minus quam harum recusandae quo labore est dolor? Consequatur quis magni ullam eaque temporibus iure,
+                earum
+                autem sit!</p>
+    </div>
+
+    <h2>Before</h2>
+    <article class="threed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis atque doloribus ad maxime
+        iure iusto consequuntur dolores explicabo similique ut, repellat excepturi culpa fugit repudiandae reprehenderit
+        illum quisquam animi ipsam.</article>
+    <p class="threed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit omnis ut quis animi porro ab
+        asperiores voluptatum vel consectetur totam earum dolorum at, aut laudantium odio cum ratione in.</p>
+    <div class="threed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio excepturi corrupti optio
+        quo, harum maxime doloribus saepe incidunt nemo iusto quas consequuntur ipsum praesentium eveniet! Vitae tenetur
+        eius omnis autem.</div>
+    <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eos totam repellat natus
+        explicabo iste ad cumque maiores, consequuntur mollitia temporibus, maxime porro at quos cupiditate
+        exercitationem? Voluptates, blanditiis soluta.</p>
+
+
+    <h2>After</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, inventore. Corporis, totam quisquam
+        voluptatum, explicabo porro, similique accusantium est molestias provident itaque ad accusamus. Cumque harum
+        dolore consectetur totam accusamus.</p>
+    <p class="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque qui, sint tenetur ad distinctio
+        facere molestias id itaque illum inventore ipsum rem culpa. Ducimus ipsa laborum amet quidem voluptas quibusdam?
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda eveniet amet recusandae. Libero accusantium
+        molestias blanditiis debitis saepe sed dolorem quas eveniet eum, maxime explicabo nam velit dolore cumque ea.
+    </p>
+
+    <h2>Selection</h2>
+    <p class="five">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae adipisci nobis eligendi
+        minima, illo sapiente earum! Incidunt nobis, accusamus temporibus itaque velit dolor perspiciatis sunt,
+        blanditiis voluptatem similique quis.</p>
+</body>
+
+</html>
