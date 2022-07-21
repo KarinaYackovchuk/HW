@@ -1,0 +1,35 @@
+@media (max-width: 2500px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media (max-width:1500px) {
+    body {
+        background-color: rgb(34, 0, 255);
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: rgb(24, 197, 64);
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        background-color: rgb(156, 13, 208);
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: rgba(255, 3, 3, 0.871);
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: rgb(190, 190, 190);
+    }
+}

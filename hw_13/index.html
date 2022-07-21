@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vh {
+            background-color: bisque;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        p {
+            font-size: 60px;
+            text-align: center;
+
+        }
+
+        .vw {
+            background-color: rgb(202, 89, 128);
+            background-position: center;
+            width: 100%;
+            height: 100vw;
+        }
+
+        .vmin {
+            background-color: antiquewhite;
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="color:rgb(71, 71, 255);">PX</h2>
+    <div style="font-size: 20px;">Hello,World</div>
+
+
+    <h2 style="color:rgb(71, 71, 255);">PX и EM</h2>
+    <h3 style="color:rgb(221, 35, 242);">PX для вложенных элементов</h3>
+    <div style="font-size: 21px;">Hello,World
+        <div style="font-size: 21px;">Hello,World</div>
+    </div>
+
+    <h3 style="color:rgb(221, 35, 242);">EM для вложенных элементов</h3>
+    <div style="font-size: 3em;">Hello,World
+        <div style="font-size: 3em;">Hello,World</div>
+    </div>
+
+    <h2 style="color:rgb(71, 71, 255);">EM и REM</h2>
+    <h3 style="color:rgb(221, 35, 242);">EM для вложенных элементов</h3>
+    <div style="font-size:4em;">Hello,World
+        <div style="font-size:0.8em;">Hello,World
+            <div style="font-size:0.8em;">Hello,World <div style="font-size:0.8em;">Hello,World <div
+                        style="font-size:0.8em">Hello,World <div style="font-size:0.8em;">Hello,World</div>
+                    </div>
+                </div>
+            </div>
+        </div>comment
+    </div>
+    </div>
+
+    <h3 style="color:rgb(221, 35, 242);">REM для вложенных элементов</h3>
+    <div style="font-size:2rem;">Hello,World
+        <div style="font-size:0.8rem;">Hello,World
+            <div style="font-size:0.8rem;">Hello,World
+                <div style="font-size:0.8rem;">Hello,World
+                    <div style="font-size:0.8rem;">Hello,World
+                        <div style="font-size:0.8rem;">Hello,World</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="color:rgb(71, 71, 255);">%</h2>
+    <div style="font-size: 200%;">Hello,World
+        <div style="font: size 200%; ;">Hello,World</div>
+    </div>
+
+    <h2 style="color:rgb(71, 71, 255);">VH</h2>
+    <div class="vh">
+        <p>Hello,World</p>
+    </div>
+    <h2 style="color:rgb(71, 71, 255);">VW</h2>
+    <div class="vw">
+        <p>Hello,World</p>
+    </div>
+    <h2 style="color:rgb(71, 71, 255);">VMIN, VMAX</h2>
+
+    <div class="vmin">
+        <div style="font-size: 1.5vw;">Hello,World
+        </div>
+        <div style="font-size:1,5vmax;">Hello,World
+            <div style="font-size:2,5vmin;">Hello,World
+                <div style="font-size: 1.8vh;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
