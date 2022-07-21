@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./fonts/gilroy-bold.eot);
+    /* IE 9 Compatibility Mode */
+    src: url(./fonts/gilroy-bold.eot) format('embedded-opentype'),
+        /* IE < 9 */
+        url(./fonts/gilroy-bold.woff2) format('woff2'),
+        /* Super Modern Browsers */
+        url(./fonts/gilroy-bold.woff) format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url(./fonts/gilroy-bold.ttf) format('truetype'),
+        /* Safari, Android, iOS */
+        url(./fonts/gilroy-bold.svg) format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../style/fonts/gilroy-bold.eot);
+    /* IE 9 Compatibility Mode */
+    src: url(../style/fonts/gilroy-bold.eot) format('embedded-opentype'),
+        /* IE < 9 */
+        url(../style/fonts/gilroy-bold.woff2) format('woff2'),
+        /* Super Modern Browsers */
+        url(../style/fonts/gilroy-bold.woff) format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url(../style/fonts/gilroy-bold.ttf) format('truetype'),
+        /* Safari, Android, iOS */
+        url(../style/fonts/gilroy-bold.svg) format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+.one {
+    position: absolute;
+    height: 4759px;
+    width: 1445px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+header {
+    height: 387px;
+    width: 943.612060546875px;
+}
+
+hr {
+    position: absolute;
+    width: 940.6px;
+    height: 0px;
+    left: 250.69px;
+    top: 87.94px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#nav {
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.li_one {
+    height: 23.033828735351562px;
+    width: 49.204227447509766px;
+    left: 252.0458984375px;
+    top: 32.990234375px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    line-height: 22px;
+    font-family: 'Gilroy-Bold';
+
+}
+
+.li_two {
+    height: 23.033832550048828px;
+    width: 82.34173583984375px;
+    left: 456.89599609375px;
+    top: 33.048828125px;
+    font-size: 18px;
+    color: #828282;
+    position: absolute;
+    line-height: 22px;
+    font-family: 'Gilroy-Bold';
+}
+
+.li_three {
+    height: 23.033828735351562px;
+    width: 42.1750373840332px;
+    left: 694.8837890625px;
+    top: 32.990234375px;
+    font-size: 18px;
+    color: #828282;
+    position: absolute;
+    line-height: 22px;
+    font-family: 'Gilroy-Bold';
+}
+
+.li_four {
+    height: 14.020587921142578px;
+    width: 72.30005645751953px;
+    left: 891.70068359375px;
+    top: 32.046875px;
+    font-size: 18px;
+    color: #828282;
+    position: absolute;
+    line-height: 22px;
+    font-family: 'Gilroy-Bold';
+}
+
+.li_five {
+    height: 23.033832550048828px;
+    width: 77.32084655761719px;
+    left: 1119.6474609375px;
+    top: 33.048828125px;
+    font-size: 18px;
+    color: #828282;
+    position: absolute;
+    line-height: 22px;
+    font-family: 'Gilroy-Bold';
+}
+
+.name {
+    position: absolute;
+    left: 251px;
+    right: 74.08%;
+    top: 90px;
+    bottom: 94.82%;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #000;
+}
+
+.information {
+    position: absolute;
+    left: 46.49%;
+    right: 42.74%;
+    top: 3.85%;
+    bottom: 95.22%;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.language {
+    position: absolute;
+    top: 205px;
+    left: 1175px;
+    transform: rotate(-90deg);
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    color: #828282;
+
+}
+
+.language-2 {
+    position: absolute;
+    top: 170px;
+    left: 1165px;
+    transform: rotate(-90deg);
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    color: #000000;
+}
+
+.two {
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 250.69px;
+    top: 276.94px;
+    background: url(./img/1.svg);
+
+}
+
+.three {
+    position: absolute;
+    width: 1445px;
+    height: 506px;
+    left: 0px;
+    top: 768px;
+    background: #F6F6F6;
+}
+
+.about_me {
+    position: absolute;
+    left: 44.68%;
+    right: 44.54%;
+    top: 15%;
+    bottom: 80.43%;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+
+}
+
+.three_two {
+    position: absolute;
+    width: 485.34px;
+    height: 218px;
+    left: 480.33px;
+    top: 181px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills {
+    position: absolute;
+    left: 45.8%;
+    right: 45.59%;
+    top: 28.68%;
+    bottom: 70.77%;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills-2 {
+    position: absolute;
+    left: 42.18%;
+    right: 42.04%;
+    top: 30.68%;
+    bottom: 68.81%;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.ps {
+    position: absolute;
+    width: 166.46px;
+    height: 206.29px;
+    left: 255.71px;
+    top: 1566.65px;
+
+}
+
+.ai {
+    position: absolute;
+    width: 166.46px;
+    height: 206.27px;
+    left: 512.42px;
+    top: 1567.67px;
+}
+
+.ae {
+    position: absolute;
+    width: 166.46px;
+    height: 206.27px;
+    left: 769.13px;
+    top: 1567.67px;
+
+}
+
+.figma {
+    position: absolute;
+    width: 166.46px;
+    height: 205.27px;
+    left: 1025.84px;
+    top: 1567.67px;
+
+}
+
+.four {
+    position: absolute;
+    width: 1445px;
+    height: 2253px;
+    left: 0px;
+    top: 1884px;
+    background: #F6F6F6;
+}
+
+.portfolio {
+    position: relative;
+    top: 90px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.four-one {
+    position: absolute;
+    width: 936.24px;
+    height: 510px;
+    left: 257.71px;
+    top: 205px;
+    background: url(./img/2.svg);
+}
+
+.online {
+    position: absolute;
+    left: 600px;
+    top: 730px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+
+}
+
+.four-two {
+    position: absolute;
+    width: 936.24px;
+    height: 522px;
+    left: 256.89px;
+    top: 879px;
+    background: url(./img/3.svg);
+}
+
+.reebok {
+    position: absolute;
+    left: 620px;
+    top: 1420px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.four-three {
+    position: absolute;
+    width: 936.24px;
+    height: 522px;
+    left: 252.7px;
+    top: 1567px;
+    background: url(./img/4.svg);
+}
+
+.braun {
+    position: absolute;
+    left: 620px;
+    top: 2100px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.contacts {
+    position: absolute;
+    left: 44.89%;
+    right: 45.03%;
+    top: 88.33%;
+    bottom: 9.76%;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts-two {
+    position: absolute;
+    left: 40.86%;
+    right: 40.1%;
+    top: 90.3%;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.message {
+
+    position: absolute;
+    left: 44%;
+    top: 4380px;
+    bottom: 0%;
+}
+
+.message-2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    position: absolute;
+    left: 46%;
+    top: 4388px;
+    color: #FFFFFF;
+}
+
+.icons {
+    position: absolute;
+    top: 4500px;
+    left: 38%;
+}
+
+.follow {
+    position: absolute;
+    left: 41.83%;
+    right: 41.35%;
+    top: 96.7%;
+    bottom: 2.59%;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
